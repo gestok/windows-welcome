@@ -91,16 +91,16 @@ body {
 }
 
 #datetime span:nth-child(1) {
-  font-size: 6rem;
+  font-size: 700%;
   font-weight: 100;
   margin-left: -10px;
 }
 #datetime span:nth-child(2) {
-  font-size: 3rem;
+  font-size: 400%;
   font-weight: 100;
 }
 #weather {
-  font-size: 1.2rem;
+  font-size: 130%;
 }
 #meter {
   cursor: pointer;
@@ -112,5 +112,5 @@ body {
   position: absolute;
   right: 0;
   bottom: -6px;
-  font-size: 0.8rem;
+  font-size: 80%;
 }
