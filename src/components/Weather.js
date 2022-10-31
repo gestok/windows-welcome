@@ -26,7 +26,6 @@ const Weather = () => {
       const api = `https://weather-proxy.freecodecamp.rocks/api/current?lat=${pos[0]}&lon=${pos[1]}`;
       const res = await fetch(api);
       const data = await res.json();
-      console.log(data);
       setMeta(data);
     };
     flag ? fetchWeather() : '';

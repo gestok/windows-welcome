@@ -42,7 +42,7 @@ const LoginScreen = () => {
         className="screen"
         style={{ background: `url('${screen}') center / cover no-repeat` }}
       ></div>
-      <div class="mt-auto d-flex flex-column gap-lg">
+      <div className="mt-auto d-flex flex-column gap-lg">
         <DateTime />
         <Weather />
       </div>
