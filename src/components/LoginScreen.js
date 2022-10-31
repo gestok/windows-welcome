@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import DateTime from './DateTime';
-import Weather from './Weather';
+import DateTime from './DateTime.js';
+import Weather from './Weather.js';
 
 const LoginScreen = () => {
   const [screen, setScreen] = useState('');

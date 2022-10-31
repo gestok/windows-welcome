@@ -1,6 +1,6 @@
 import React from 'react';
 import AppendHead from 'react-append-head';
-import LoginScreen from './components/LoginScreen';
+import LoginScreen from './components/LoginScreen.js';
 import 'normalize.css';
 import './style.css';
 
