@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: clamp(12px, 0.8rem + 0.25vw, 20px);
+  font-size: clamp(12px, 0.8rem + 0.25vw, 96px);
 }
 
 body {
