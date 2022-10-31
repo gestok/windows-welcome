@@ -52,13 +52,13 @@ const Weather = () => {
       <div className="d-flex gap-sm align-center pe-none user-select-none">
         {meta.weather && (
           <>
+            {meta.weather[0].main}
             <img
               className="pe-none user-select-none"
               src={meta.weather[0].icon}
               alt="Weather"
-              width="50"
+              width="34"
             />
-            {meta.weather[0].main}
           </>
         )}
       </div>

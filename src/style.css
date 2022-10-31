@@ -91,16 +91,16 @@ body {
 }
 
 #datetime span:nth-child(1) {
-  font-size: 700%;
+  font-size: 600%;
   font-weight: 100;
   margin-left: -10px;
 }
 #datetime span:nth-child(2) {
-  font-size: 400%;
+  font-size: 300%;
   font-weight: 100;
 }
 #weather {
-  font-size: 130%;
+  font-size: 120%;
 }
 #meter {
   cursor: pointer;
